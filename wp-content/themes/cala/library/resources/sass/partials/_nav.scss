@@ -1,0 +1,21 @@
+#main-menu {
+    position: absolute;
+    right: 7%;
+    top: 70px;
+
+    #menu-main-menu {
+        margin: 0;
+        padding: 0;
+
+        li {
+            display: inline-block;
+            margin: 0 0 0 23px;
+            padding: 0;
+
+            a {
+                @include fonts( #1380ab, $bold, 20 );
+                text-decoration: none;
+            }
+        }
+    }
+}

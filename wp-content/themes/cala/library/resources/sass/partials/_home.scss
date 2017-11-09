@@ -1,0 +1,21 @@
+#home {
+    padding-top: 136px;
+
+    #productos {
+        padding-top: 54px;
+
+        .title-products {
+            @include fonts( #6943ac, $medium, 54 );
+            margin: 0;
+            text-align: center;
+        }
+    }
+
+    .hr {
+        background: url('#{$bg}hr.png') center no-repeat;
+        border: none;
+        height: 20px;
+        margin: 0;
+        width: 100%;
+    }
+}

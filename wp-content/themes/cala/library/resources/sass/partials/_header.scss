@@ -1,0 +1,15 @@
+header {
+    background: $white;
+    height: 136px;
+    padding-left: 40px;
+    padding-top: 32px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+
+    .logo {
+        img {
+            width: 220px;
+        }
+    }
+}
